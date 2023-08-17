@@ -14,7 +14,7 @@
 
   Com os circuitos feitos, basta conectar as quatro entradas de 1 bit nas entradas dos ciruitos e a saida deles no respectivas saidas do decodificador.
   
-![display](images/dispplay.png)
+![display](images/display.png)
 
 # 4. Comparador
   Neste circuito, recebe-se as quatro entradas do palpite do jogador e as quatro do "numero secreto", para cada uma das saidas temos uma configuração:

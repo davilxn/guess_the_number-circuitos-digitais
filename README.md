@@ -7,17 +7,10 @@
 
 # 2. Multiplexador
   O circuito do multiplexador controla o jogador que está dando o palpite, tendo duas entradas de 4 bits (para o palpite) e uma de 1 bit (para controlar o jogador, 0 ou 1).
+![multiplexador]()
 
 # 3. Decodificador
-  A função do decodificador é mostrar no display de sete seguimentos o valor digitado (em binario) ser mostrado em hexadecimal. Para isso, foi feito para cada pino um circuito com o auxilio do mapa de VK, como mostra as fotos abaixo:
-  
-![foto 1](images/1.jpeg)
-![foto 2](images/2.jpeg)
-![foto 3](images/3.jpeg)
-![foto 4](images/4.jpeg)
-![foto 5](images/5.jpeg)
-![foto 6](images/6.jpeg)
-![foto 7](images/7.jpeg)
+  A função do decodificador é mostrar no display de sete seguimentos o valor digitado (em binario) ser mostrado em hexadecimal. Para isso, foi feito para cada pino um circuito com o auxilio do mapa de VK (confira as fotos na pasta imagens).
 
   Com os circuitos feitos, basta conectar as quatro entradas de 1 bit nas entradas dos ciruitos e a saida deles no respectivas saidas do decodificador.
   

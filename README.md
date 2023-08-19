@@ -20,7 +20,7 @@
   Neste circuito, recebe-se as quatro entradas do palpite do jogador e as quatro do "numero secreto", para cada uma das saidas temos uma configuração:
   
     a) Para igualdade: quatro portas XNOR com duas entradas, mesmas entradas do "numero secreto" e do palpite, dessa forma, caso sejam iguais, a saida será verdadeira. Após isso há uma AND para as quatro portas XNOR.
-    b) Para maior: para comparar a magnitude, se começa onlhando pelo bit de maior significancia (A3>B3) e assim posteriormente.
+    b) Para maior: para comparar a magnitude, se começa observando o bit de maior significancia (A3>B3) e assim posteriormente. Para o de menor significancia ainda é necessario que se adicione o fio correspondente do circuito de igualdade das outras magnitudes (mostrando que as outras casas são iguais e comparar apenas a de menor significancia) dentro da porta AND.
     c) Para menor: após verificar as demais condições, se estas forem falsa é porque o palpite é menor do que o "numero secreto".
 
   ![comparador](images/comparador.png)
